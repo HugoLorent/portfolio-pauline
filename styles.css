@@ -1,0 +1,60 @@
+:root {
+  --body-background-color: #f3f3f3;
+  --left-polygon-color: #e1e1e1;
+  --green: #2eb474;
+}
+
+/* Base reset */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Box-sizing */
+*,
+:after,
+:before {
+  box-sizing: border-box;
+}
+
+html {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+/* Base styles */
+body {
+  background-color: var(--body-background-color);
+}
+
+/* cv style */
+
+.cv {
+  border: 2px solid red;
+  margin: 5% auto;
+  width: 50%;
+}
+
+#crtBgShape1,
+#crtBgShape2 {
+  top: 0;
+  position: fixed;
+  z-index: -1;
+}
+
+#crtBgShape1 {
+  left: 0;
+}
+
+#crtBgShape2 {
+  top: -100px;
+  right: -100px;
+}
+
+#crtBgShape1 polygon {
+  fill: var(--left-polygon-color);
+}
+
+#crtBgShape2 polygon {
+  fill: var(--green);
+}
