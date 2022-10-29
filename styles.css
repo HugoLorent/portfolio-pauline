@@ -176,3 +176,54 @@ h6 {
 #crtBgShape2 polygon {
   fill: var(--green);
 }
+
+@media only screen and (max-width: 990px) {
+  .header {
+    width: 100%;
+    padding-left: 15px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  }
+
+  .cv-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 0;
+    width: 100%;
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  .left-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+    width: 100%;
+    max-width: 100%;
+    padding: 0;
+    box-shadow: none;
+  }
+
+  .cv-button {
+    color: #fff;
+    background-color: #f16b1a;
+    width: 90%;
+  }
+
+  .paper {
+    width: 100%;
+    max-width: 100%;
+    border: none;
+  }
+
+  #crtBgShape1 polygon {
+    visibility: hidden;
+  }
+
+  #crtBgShape2 polygon {
+    visibility: hidden;
+  }
+}
