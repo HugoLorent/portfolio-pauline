@@ -165,50 +165,29 @@ h6 {
   flex-direction: column;
 }
 
-.experience-container {
+.experience-block {
   display: flex;
   flex-direction: row;
-  flex-wrap: nowrap;
-  gap: 20px;
 }
 
 .date-container {
-  width: 160px;
-  height: 32px;
-  padding: 8px 6px;
   text-align: center;
   background-color: var(--green);
+  width: 160px;
 }
 
-.date-container span {
+.date-container p {
   color: #fff;
   font-size: 14px;
 }
 
-.date-container::after {
-}
-
-.task-container {
-  display: flex;
-  flex-direction: column;
-}
-
-.task-container h3 {
-  font-size: 20px;
-  margin-bottom: 10px;
-}
-
-.task-container span {
-  line-height: 1.1;
-  letter-spacing: 0;
-  font-size: 16px;
-  color: #757575;
-  margin-bottom: 15px;
-}
-
-ul {
-  list-style-type: disc;
-  padding: 0 0 0 26px;
+.arrow {
+  content: '';
+  height: 0;
+  width: 0;
+  border-top: 16px solid transparent;
+  border-bottom: 16px solid transparent;
+  border-left: 10px solid var(--green);
 }
 
 /* svg styles */
