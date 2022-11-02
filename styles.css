@@ -43,6 +43,10 @@ h6 {
   line-height: 1.1;
 }
 
+ul {
+  padding-left: 1em;
+}
+
 /* cv styles */
 .cv-container {
   display: flex;
@@ -63,8 +67,7 @@ h6 {
   flex-direction: row;
   width: 95%;
   max-width: 1180px;
-  height: 103px;
-  margin: 0 auto;
+  margin: 1em auto;
   padding: 20px 0;
 }
 
@@ -168,12 +171,19 @@ h6 {
 .experience-block {
   display: flex;
   flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
 }
 
 .date-container {
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: var(--green);
   width: 160px;
+  height: 32px;
+  min-width: 160px;
+  min-height: 32px;
 }
 
 .date-container p {
@@ -188,6 +198,37 @@ h6 {
   border-top: 16px solid transparent;
   border-bottom: 16px solid transparent;
   border-left: 10px solid var(--green);
+}
+
+.task-container {
+  margin-top: 6px;
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.task-container h3 {
+  font-size: 20px;
+  letter-spacing: 0;
+}
+
+.task-company {
+  color: #757575;
+  line-height: 1.1;
+  letter-spacing: 0;
+  font-size: 1em;
+  margin: 4px 0;
+  font-style: italic;
+}
+
+.line {
+  content: '';
+  display: block;
+  border-bottom: 0.5px solid rgba(0, 0, 0, 0.1);
+  width: 80%;
+  min-width: 80%;
+  margin: 2em auto;
 }
 
 /* svg styles */
@@ -219,7 +260,6 @@ h6 {
   .header {
     width: 100%;
     padding-left: 15px;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
   }
 
   .cv-container {
