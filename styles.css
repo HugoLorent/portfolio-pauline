@@ -31,7 +31,7 @@ h4,
 h5,
 h6 {
   font-family: 'Cabin Sketch', sans-serif;
-  font-weight: 700;
+  font-weight: 100;
   line-height: 1.1;
 }
 
@@ -314,6 +314,11 @@ a {
     width: 100%;
     max-width: 100%;
     border: none;
+    padding: 35px 20px;
+  }
+
+  .paper h2 {
+    margin-bottom: 40px;
   }
 
   #crtBgShape1 polygon {
@@ -326,6 +331,20 @@ a {
 }
 
 @media only screen and (max-width: 550px) {
+  .paper {
+    padding: 30px 20px;
+  }
+
+  .paper h2 {
+    font-size: 25px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+
+  .paper p {
+    text-align: justify;
+  }
+
   .experience-block {
     display: block;
     justify-content: center;
