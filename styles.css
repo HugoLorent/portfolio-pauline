@@ -63,9 +63,9 @@ a {
   flex-direction: row;
   justify-content: flex-start;
   align-items: center;
-  width: 95%;
-  max-width: 1180px;
-  margin: 1em auto;
+  width: 93%;
+  max-width: 1170px;
+  margin: 0 auto;
   padding: 20px 0;
 }
 
@@ -83,7 +83,6 @@ a {
   justify-content: flex-end;
   align-items: center;
   gap: 0.8em;
-  margin-right: 6.5%;
 }
 
 .navbar i {
@@ -163,7 +162,7 @@ a {
 .paper {
   background-color: #fff;
   width: 100%;
-  max-width: 808px;
+  max-width: 880px;
   padding: 40px 20px;
   border: 1px solid rgba(0, 0, 0, 0.1);
 }
@@ -271,10 +270,14 @@ a {
   fill: #2eb474;
 }
 
-@media only screen and (max-width: 990px) {
+@media only screen and (max-width: 1000px) {
   .header {
     width: 100%;
     padding-left: 15px;
+  }
+
+  .navbar {
+    margin-right: 1em;
   }
 
   .cv-container {
@@ -330,7 +333,7 @@ a {
   }
 }
 
-@media only screen and (max-width: 550px) {
+@media only screen and (max-width: 600px) {
   .paper {
     padding: 30px 20px;
   }
