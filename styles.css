@@ -82,7 +82,7 @@ a {
   flex-wrap: nowrap;
   justify-content: flex-end;
   align-items: center;
-  gap: 0.8em;
+  gap: 0.9em;
 }
 
 .navbar i {
@@ -202,7 +202,7 @@ a {
 
 .date-container p {
   color: #fff;
-  font-size: 14px;
+  font-size: 13px;
 }
 
 .arrow {
@@ -267,7 +267,7 @@ a {
 }
 
 #crtBgShape2 polygon {
-  fill: #2eb474;
+  fill: #ff914d;
 }
 
 @media only screen and (max-width: 1000px) {
